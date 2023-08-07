@@ -2,15 +2,15 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://localhost:4000/</id>
-  <title>Chirpy</title>
-  <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2023-08-07T17:27:30+08:00</updated>
+  <title>하찮's 개발자</title>
+  <subtitle>임헌찬 블로그</subtitle>
+  <updated>2023-08-07T18:51:43+09:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/</uri>
   </author>
   <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
-  <link rel="alternate" type="text/html" hreflang="en"
+  <link rel="alternate" type="text/html" hreflang="ko"
     href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
   <rights> © 2023 your_full_name </rights>
@@ -20,23 +20,23 @@
 
   
   <entry>
-    <title>Customize the Favicon</title>
-    <link href="http://localhost:4000/posts/customize-the-favicon/" rel="alternate" type="text/html" title="Customize the Favicon" />
-    <published>2019-08-11T00:34:00+08:00</published>
+    <title>블로그를 시작한 이유</title>
+    <link href="http://localhost:4000/posts/first-write/" rel="alternate" type="text/html" title="블로그를 시작한 이유" />
+    <published>2023-08-07T00:00:00+09:00</published>
   
-    <updated>2019-08-11T00:34:00+08:00</updated>
+    <updated>2023-08-07T00:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/customize-the-favicon/</id>
-    <content src="http://localhost:4000/posts/customize-the-favicon/" />
+    <id>http://localhost:4000/posts/first-write/</id>
+    <content src="http://localhost:4000/posts/first-write/" />
     <author>
-      <name>cotes</name>
+      <name>channy</name>
     </author>
 
   
     
     <category term="Blogging" />
     
-    <category term="Tutorial" />
+    <category term="일상" />
     
   
 
@@ -48,149 +48,20 @@
 
 
 
-      The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.
-
-Generate the favicon
-
-Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool Real Favicon Generator and click the button Select your Favicon image ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Getting Started</title>
-    <link href="http://localhost:4000/posts/getting-started/" rel="alternate" type="text/html" title="Getting Started" />
-    <published>2019-08-09T20:55:00+08:00</published>
-  
-    <updated>2019-08-09T20:55:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/getting-started/</id>
-    <content src="http://localhost:4000/posts/getting-started/" />
-    <author>
-      <name>cotes</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Tutorial" />
-    
-  
-
-  
-    <summary>
       
+  맨날 마음으로만 해야지 해야지 했던 블로그를 드디어 시작하게 되었다. 그래서 첫 글로 내가 왜 블로그를 시작했고, 앞으로 어떤 글을 작성해 나갈지를 간단히 적어보려고 한다.
 
 
+블로그를 시작한 이유
+퇴사 👋
+나는 3년 반 정도 다니고 있던 회사에서 곧 퇴사를 앞두고 있는 상황이다.
 
+퇴사를 앞두고 있다 보니 자연스레 여유 시간도 생겨서 그동안 생각만 하고 못하고 있던 것들을 하나둘씩 해보고 있는데 그중 하나가 바로 블로그 운영해 보는 것이었다.
 
+퇴사 후 이직을 해야 하기 때문에 최근 여러 곳 지원을 해보고 있는데, 서류에서도 많이 떨어지고, 면접을 보면서도 부족했던 부분이 많이 느껴져서 당분간은 그런 부분들에 대해 공부를 하고 블로그에도 정리를 해보려고 한다.
 
-      Prerequisites
-
-Follow the instructions in the Jekyll Docs to complete the installation of the basic environment. Git also needs to be installed.
-
-Installation
-
-Creating a New Site
-
-There are two ways to create a new repository for this theme:
-
-
-  Using the Chirpy Starter - Easy to upgrade, isolates irrelevant project files so you can focus on writing.
-  GitHub Fork - Convenient for custom devel...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Writing a New Post</title>
-    <link href="http://localhost:4000/posts/write-a-new-post/" rel="alternate" type="text/html" title="Writing a New Post" />
-    <published>2019-08-08T14:10:00+08:00</published>
-  
-    <updated>2019-08-08T14:10:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/write-a-new-post/</id>
-    <content src="http://localhost:4000/posts/write-a-new-post/" />
-    <author>
-      <name>cotes</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Tutorial" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      This tutorial will guide you how to write a post in the Chirpy template, and it’s worth reading even if you’ve used Jekyll before, as many features require specific variables to be set.
-
-Naming and Path
-
-Create a new file named YYYY-MM-DD-TITLE.EXTENSION and put it in the _posts of the root directory. Please note that the EXTENSION must be one of md and markdown. If you want to save time of cre...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Text and Typography</title>
-    <link href="http://localhost:4000/posts/text-and-typography/" rel="alternate" type="text/html" title="Text and Typography" />
-    <published>2019-08-08T11:33:00+08:00</published>
-  
-    <updated>2019-08-08T11:33:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/text-and-typography/</id>
-    <content src="http://localhost:4000/posts/text-and-typography/" />
-    <author>
-      <name>cotes</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Demo" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      This post is to show Markdown syntax rendering on Chirpy, you can also use it as an example of writing. Now, let’s start looking at text and typography.
-
-Headings
-
-H1 - heading
-
-H2 - heading
-
-H3 - heading
-
-H4 - heading
-
-Paragraph
-
-Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas interdum malesuada egestas. Duis consectetur porta risus, sit amet vulputate urna facilis...
+무엇이든 남겨보자 ✍️
+개발 블로...
     </summary>
   
 
