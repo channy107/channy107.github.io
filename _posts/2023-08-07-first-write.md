@@ -1,7 +1,7 @@
 ---
 title: 블로그를 시작한 이유
 author: channy
-categories: [Blogging, 일상]
+categories: [일상]
 tags: [writing]
 pin: true
 ---

@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>하찮's 개발자</title>
   <subtitle>임헌찬 블로그</subtitle>
-  <updated>2023-08-07T18:55:56+09:00</updated>
+  <updated>2023-11-02T19:04:10+09:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,57 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>호이스팅</title>
+    <link href="http://localhost:4000/posts/hoisting/" rel="alternate" type="text/html" title="호이스팅" />
+    <published>2023-11-02T00:00:00+09:00</published>
+  
+    <updated>2023-11-02T00:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/hoisting/</id>
+    <content src="http://localhost:4000/posts/hoisting/" />
+    <author>
+      <name>channy</name>
+    </author>
+
+  
+    
+    <category term="Javascript" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  자바스크립트 호이스팅에 대해 알아보고자 한다.
+
+
+호이스팅은 무엇인가?
+
+  MDN 문서에 따르면, 호이스팅은 인터프리터가 코드를 실행하기 전에 함수, 변수, 클래스 또는 임포트(import)의 선언문을 해당 범위의 맨 위로 이동시키는 과정을 말한다.
+
+
+아래 코드를 예시로 보면
+console.log(x); // undefined
+
+var x = 1;
+
+
+console.log(x) 가 실행되는 시점은 변수 x가 선언되기 전이기 때문에 참조 에러가 발생할 것으로 보이지만 실제로는 undefined 가 출력된다.
+
+코드를 실행하기 전 선언문을 해당 범위의 맨 위로 이동시키는 과정 이라는 정의를 보았을 때 그 이유는 변수 선언은 코드가 실행되는 시점(런타임)이 아닌 그 이전에 코드의 위로 끌어 올려지기...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -33,8 +84,6 @@
     </author>
 
   
-    
-    <category term="Blogging" />
     
     <category term="일상" />
     

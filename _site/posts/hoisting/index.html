@@ -37,24 +37,27 @@
   
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.2" />
-<meta property="og:title" content="하찮’s 개발자" />
+<meta property="og:title" content="호이스팅" />
+<meta name="author" content="Lim Hun Chan" />
 <meta property="og:locale" content="ko" />
-<meta name="description" content="임헌찬 블로그" />
-<meta property="og:description" content="임헌찬 블로그" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<meta name="description" content="자바스크립트 호이스팅에 대해 알아보고자 한다." />
+<meta property="og:description" content="자바스크립트 호이스팅에 대해 알아보고자 한다." />
+<link rel="canonical" href="http://localhost:4000/posts/hoisting/" />
+<meta property="og:url" content="http://localhost:4000/posts/hoisting/" />
 <meta property="og:site_name" content="하찮’s 개발자" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-11-02T00:00:00+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="하찮’s 개발자" />
+<meta property="twitter:title" content="호이스팅" />
 <meta name="twitter:site" content="@twitter_username" />
+<meta name="twitter:creator" content="@Lim Hun Chan" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"임헌찬 블로그","headline":"하찮’s 개발자","name":"your_full_name","sameAs":["https://twitter.com/username","https://github.com/channy107"],"url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Lim Hun Chan","url":"https://github.com/channy107"},"dateModified":"2023-11-02T00:00:00+09:00","datePublished":"2023-11-02T00:00:00+09:00","description":"자바스크립트 호이스팅에 대해 알아보고자 한다.","headline":"호이스팅","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/hoisting/"},"url":"http://localhost:4000/posts/hoisting/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
 
-  <title>하찮's 개발자
+  <title>호이스팅 | 하찮's 개발자
   </title>
 
   <!--
@@ -106,7 +109,12 @@
   <link rel="stylesheet" href="/assets/css/style.css">
 
   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.21.0/dist/tocbot.min.css">
+  
 
+  
+    <!-- Manific Popup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.min.css">
   
 
   <!-- JavaScript -->
@@ -284,7 +292,7 @@
 
   <ul class="nav flex-column flex-grow-1 w-100 ps-0">
     <!-- home -->
-    <li class="nav-item active">
+    <li class="nav-item">
       <a href="/" class="nav-link">
         <i class="fa-fw fas fa-home"></i>
         <span>홈</span>
@@ -448,9 +456,25 @@
       
 
       
-        <!-- index page -->
-        <span>홈</span>
+        
+          
+            <span>
+              <a href="/">
+                홈
+              </a>
+            </span>
 
+          
+        
+          
+        
+          
+            
+              <span>호이스팅</span>
+            
+
+          
+        
       
     </span>
     <!-- endof #breadcrumb -->
@@ -458,7 +482,7 @@
     <i id="sidebar-trigger" class="fas fa-bars fa-fw"></i>
 
     <div id="topbar-title">
-      하찮's 개발자
+      포스트
     </div>
 
     <i id="search-trigger" class="fas fa-search fa-fw"></i>
@@ -489,12 +513,12 @@
 
 
 
-<div class="row mb-5">
+<div class="row">
   <!-- core -->
   <div id="core-wrapper" class="col-12 col-lg-11 col-xl-9 pe-xl-4">
     
 
-    <div class="post  px-md-2">
+    <div class="post px-1 px-md-2">
       
 
       
@@ -541,6 +565,65 @@
   
 
   
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
+
+    
+
+  
 
   
   
@@ -565,69 +648,13 @@
 
 
 
+<h1 data-toc-skip>호이스팅</h1>
 
-
-
-
-
-<!-- Get pinned posts -->
-
-
-
-
-
-
-<!-- Get default posts -->
-
-
-
-
-
-
-
-
-
-
-<div id="post-list">
-  
-    <a href="/posts/hoisting/" class="card-wrapper">
-      <div class="card post-preview flex-md-row-reverse">
-        
-
-        <div class="card-body d-flex flex-column">
-          <h1 class="card-title my-2 mt-md-0">
-            호이스팅
-          </h1>
-
-          <div class="card-text post-content mt-0 mb-2">
-            <p>
-              
-
-
-
-
-
-              
-  자바스크립트 호이스팅에 대해 알아보고자 한다.
-
-
-호이스팅은 무엇인가?
-
-  MDN 문서에 따르면, 호이스팅은 인터프리터가 코드를 실행하기 전에 함수, 변수, 클래스 또는 임포트(import)의 선언문을 해당 범위의 맨 위로 이동시키는 과정을 말한다.
-
-
-아래 코드를 예시로 보면
-console.log(x); // undefined
-
-var x =...
-            </p>
-          </div>
-
-          <div class="post-meta flex-grow-1 d-flex align-items-end">
-            <div class="me-auto">
-              <!-- posted date -->
-              <i class="far fa-calendar fa-fw me-1"></i>
-              <!--
+<div class="post-meta text-muted">
+    <!-- published date -->
+    <span>
+      게시
+      <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -641,113 +668,214 @@ var x =...
   data-ts="1698850800"
   data-df="YYYY/MM/DD"
   
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
 >
   2023/11/02
 </em>
 
+    </span>
 
-              <!-- categories -->
-              
-                <i class="far fa-folder-open fa-fw me-1"></i>
-                <span class="categories">
-                  
-                    Javascript
-                </span>
-              
-            </div>
+    <!-- lastmod date -->
+    
 
-            
-              <div class="pin ms-1">
-                <i class="fas fa-thumbtack fa-fw"></i>
-                <span></span>
-              </div>
-            
-          </div>
-          <!-- .post-meta -->
-        </div>
-        <!-- .card-body -->
-      </div>
-    </a>
   
-    <a href="/posts/first-write/" class="card-wrapper">
-      <div class="card post-preview flex-md-row-reverse">
+
+  <div class="d-flex justify-content-between">
+    <!-- author(s) -->
+    <span>
+      
+
+      By
+
+      <em>
+      
         
+          <a href="https://github.com/channy107">Lim Hun Chan</a>
+          
+        
+      
+      </em>
+    </span>
 
-        <div class="card-body d-flex flex-column">
-          <h1 class="card-title my-2 mt-md-0">
-            블로그를 시작한 이유
-          </h1>
-
-          <div class="card-text post-content mt-0 mb-2">
-            <p>
-              
-
-
-
+    <div>
+      <!-- read time -->
+      <!-- Calculate the post's reading time, and display the word count in tooltip -->
 
 
-              
-  맨날 마음으로만 해야지 해야지 했던 블로그를 드디어 시작하게 되었다. 그래서 첫 글로 내가 왜 블로그를 시작했고, 앞으로 어떤 글을 작성해 나갈지를 간단히 적어보려고 한다.
 
-
-블로그를 시작한 이유
-퇴사 👋
-나는 3년 반 정도 다니고 있던 회사에서 곧 퇴사를 앞두고 있는 상황이다.
-
-퇴사를 앞두고 있다 보니 자연스레 여유 시간도 생겨서 그동안 생...
-            </p>
-          </div>
-
-          <div class="post-meta flex-grow-1 d-flex align-items-end">
-            <div class="me-auto">
-              <!-- posted date -->
-              <i class="far fa-calendar fa-fw me-1"></i>
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
+<!-- words per minute -->
 
 
 
 
 
-<em
-  class=""
-  data-ts="1691334000"
-  data-df="YYYY/MM/DD"
-  
+
+
+
+
+
+<!-- return element -->
+<span
+  class="readtime"
+  data-bs-toggle="tooltip"
+  data-bs-placement="bottom"
+  title="891 단어"
 >
-  2023/08/07
-</em>
+  <em>4 분</em>읽는 시간</span>
 
+    </div>
 
-              <!-- categories -->
-              
-                <i class="far fa-folder-open fa-fw me-1"></i>
-                <span class="categories">
-                  
-                    일상
-                </span>
-              
-            </div>
+  </div> <!-- .d-flex -->
 
-            
-              <div class="pin ms-1">
-                <i class="fas fa-thumbtack fa-fw"></i>
-                <span></span>
-              </div>
-            
-          </div>
-          <!-- .post-meta -->
-        </div>
-        <!-- .card-body -->
-      </div>
-    </a>
-  
+</div> <!-- .post-meta -->
+
+<div class="post-content">
+  <blockquote>
+  <p>자바스크립트 호이스팅에 대해 알아보고자 한다.</p>
+</blockquote>
+
+<h2 id="호이스팅은-무엇인가"><span class="me-2">호이스팅은 무엇인가?</span><a href="#호이스팅은-무엇인가" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<blockquote>
+  <p>MDN 문서에 따르면, 호이스팅은 인터프리터가 <code class="language-plaintext highlighter-rouge">코드를 실행하기 전</code>에 함수, 변수, 클래스 또는 임포트(import)의 <code class="language-plaintext highlighter-rouge">선언문</code>을 <code class="language-plaintext highlighter-rouge">해당 범위의 맨 위로 이동시키는</code> 과정을 말한다.</p>
+</blockquote>
+
+<p>아래 코드를 예시로 보면</p>
+<div class="language-javascript highlighter-rouge"><div class="code-header">
+        <span data-label-text="JavaScript"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">x</span><span class="p">);</span> <span class="c1">// undefined</span>
+
+<span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><strong>console.log(x)</strong> 가 실행되는 시점은 변수 x가 선언되기 전이기 때문에 참조 에러가 발생할 것으로 보이지만 실제로는 <code class="language-plaintext highlighter-rouge">undefined</code> 가 출력된다.</p>
+
+<p><strong>코드를 실행하기 전 선언문을 해당 범위의 맨 위로 이동시키는 과정</strong> 이라는 정의를 보았을 때 그 이유는 변수 선언은 코드가 실행되는 시점(런타임)이 아닌 그 이전에 코드의 위로 끌어 올려지기 때문에 변수 선언의 위치에 상관없이 변수를 참조할 수 있다.</p>
+
+<h2 id="var-let-const"><span class="me-2">var, let, const</span><a href="#var-let-const" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<blockquote>
+  <p>각 키워드 별 특징은 아래 표와 같다.</p>
+</blockquote>
+
+<div class="table-wrapper"><table>
+  <thead>
+    <tr>
+      <th>키워드</th>
+      <th>범위</th>
+      <th>호이스팅</th>
+      <th>변경 가능 여부</th>
+      <th>중복 선언 가능 여부</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>var</td>
+      <td>함수 스코프</td>
+      <td>호이스팅+초기화(undefined)</td>
+      <td>가능</td>
+      <td>가능</td>
+    </tr>
+    <tr>
+      <td>let</td>
+      <td>블록 스코프</td>
+      <td>호이스팅</td>
+      <td>가능</td>
+      <td>불가능</td>
+    </tr>
+    <tr>
+      <td>const</td>
+      <td>블록 스코프</td>
+      <td>호이스팅</td>
+      <td>불가능</td>
+      <td>불가능</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<div class="language-javascript highlighter-rouge"><div class="code-header">
+        <span data-label-text="JavaScript"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">x</span><span class="p">);</span> <span class="c1">// ReferenceError</span>
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">y</span><span class="p">);</span> <span class="c1">// ReferenceError</span>
+
+<span class="kd">let</span> <span class="nx">x</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+<span class="kd">const</span> <span class="nx">y</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">let</code> 과 <code class="language-plaintext highlighter-rouge">const</code> 의 경우 위 코드처럼 선언 이전에 참조하면 참조 에러가 발생해 호이스팅이 일어나지 않는 것과 같이 보이지만 이는 런타임 이전에 <code class="language-plaintext highlighter-rouge">선언단계</code> 와 <code class="language-plaintext highlighter-rouge">초기화 단계</code> 가 한번에 되는 <code class="language-plaintext highlighter-rouge">var</code> 와 달리 <code class="language-plaintext highlighter-rouge">let</code> 과 <code class="language-plaintext highlighter-rouge">const</code> 의 경우 <code class="language-plaintext highlighter-rouge">선언단계</code> 와 <code class="language-plaintext highlighter-rouge">초기화 단계</code> 가 분리되어 런타임 이전에 <code class="language-plaintext highlighter-rouge">선언단계</code> 가 실행되고 <code class="language-plaintext highlighter-rouge">초기화 단계</code> 는 선언문에 도달했을 때 진행되기 때문에 선언 이전에 참조하면 에러가 발생한다.
+<br />
+이렇게 스코프의 시작 지점부터 초기화 시작 지점까지 변수를 참조할 수 없는 구간을 <code class="language-plaintext highlighter-rouge">일시적 사각지대(Temporal Dead Zone:TDZ)</code> 라고 부른다</p>
+
+<h2 id="함수-호이스팅"><span class="me-2">함수 호이스팅</span><a href="#함수-호이스팅" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<blockquote>
+  <p>함수 역시 호이스팅이 일어나지만 <code class="language-plaintext highlighter-rouge">함수 선언문</code> 과 <code class="language-plaintext highlighter-rouge">함수 표현식</code> 두 방식의 동작은 조금 다르다.</p>
+</blockquote>
+
+<p><code class="language-plaintext highlighter-rouge">함수 선언문</code> 의 경우 런타임 이전에 함수 객체가 먼저 생성되고 자바스크립트 엔진은 함수 이름과 동일한 이름의 식별자를 암묵적으로 생성하고 생성된 객체를 할당한다. 따라서 런타임에는 이미 함수 객체가 생성되어 있고 함수 이름과 동일한 식별자까지 할당이 완료된 상태이기 때문에 함수 선언문 이전에 함수를 참조할 수 있고 호출 역시도 가능하다.</p>
+
+<p><code class="language-plaintext highlighter-rouge">함수 표현식</code> 의 경우 함수 리터럴이 변수에 할당되는 형태이기 때문에 <code class="language-plaintext highlighter-rouge">함수 호이스팅</code> 이 아닌 <code class="language-plaintext highlighter-rouge">변수 호이스팅</code> 이 발생하므로 선언 이전에 호출 시 타입에러가 발생한다.</p>
+
+<h2 id="클래스-호이스팅"><span class="me-2">클래스 호이스팅</span><a href="#클래스-호이스팅" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<blockquote>
+  <p>클래스는 <code class="language-plaintext highlighter-rouge">let</code>, <code class="language-plaintext highlighter-rouge">const</code> 키워드로 선언한 변수처럼 호이스팅 된다.</p>
+</blockquote>
+
+<div class="language-javascript highlighter-rouge"><div class="code-header">
+        <span data-label-text="JavaScript"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">Person</span><span class="p">);</span>
+<span class="c1">// ReferenceError: Cannot access 'Person' before initialization</span>
+<span class="c1">// 클래스 선언문</span>
+<span class="kd">class</span> <span class="nc">Person</span> <span class="p">{}</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<blockquote>
+  <p>참고: <a href="https://developer.mozilla.org/ko/docs/Glossary/Hoisting">https://developer.mozilla.org/ko/docs/Glossary/Hoisting</a></p>
+</blockquote>
+
 </div>
-<!-- #post-list -->
 
+<div class="post-tail-wrapper text-muted">
 
+  <!-- categories -->
+  
+  <div class="post-meta mb-3">
+    <i class="far fa-folder-open fa-fw me-1"></i>
+    
+      <a href='/categories/javascript/'>Javascript</a>
+  </div>
+  
+
+  <!-- tags -->
+  
+  <div class="post-tags">
+    <i class="fa fa-tags fa-fw me-1"></i>
+      
+      <a href="/tags/writing/"
+          class="post-tag no-text-decoration" >writing</a>
+      
+  </div>
+  
+
+</div><!-- div.post-tail-wrapper -->
+
+<script src="https://utteranc.es/client.js"
+        repo="channy107/channy107.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 
 
       
@@ -817,10 +945,177 @@ var x =...
     </div>
 
     
+      
+      
+
+
+
+  <div id="toc-wrapper" class="ps-0 pe-4 mb-5">
+    <div class="panel-heading ps-3 pt-2 mb-2">바로가기</div>
+    <nav id="toc"></nav>
+  </div>
+
+
+    
   </div>
 </div>
 
 <!-- tail -->
+
+  <div class="row">
+    <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-3 pe-xl-4 mt-5">
+      
+        
+        <!--
+  Recommend the other 3 posts according to the tags and categories of the current post,
+  if the number is not enough, use the other latest posts to supplement.
+-->
+
+<!-- The total size of related posts -->
+
+
+<!-- An random integer that bigger than 0 -->
+
+
+<!-- Equals to TAG_SCORE / {max_categories_hierarchy} -->
+
+
+
+
+
+
+
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+<!-- Fill with the other newlest posts -->
+
+
+
+  
+    
+    
+  
+    
+    
+      
+      
+    
+  
+
+
+
+  <div id="related-posts" class="mb-2 mb-sm-4">
+    <h3 class="pt-2 mb-4 ms-1" data-toc-skip>
+      관련된 글
+    </h3>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        
+        
+        <div class="col">
+          <a href="/posts/first-write/" class="card post-preview h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em
+  class="small"
+  data-ts="1691334000"
+  data-df="YYYY/MM/DD"
+  
+>
+  2023/08/07
+</em>
+
+              <h4 class="pt-0 my-2" data-toc-skip>블로그를 시작한 이유</h4>
+              <div class="text-muted small">
+                <p>
+                  
+
+
+
+
+
+                  
+  맨날 마음으로만 해야지 해야지 했던 블로그를 드디어 시작하게 되었다. 그래서 첫 글로 내가 왜 블로그를 시작했고, 앞으로 어떤 글을 작성해 나갈지를 간단히 적어보려고 한다.
+
+
+블로그를 시작한 이유
+퇴사 👋
+나는 3년 반 정도 다니고 있던 회사에서 곧 퇴사를 앞두고 있는 상황이다.
+
+퇴사를 앞두고 있다 보니 자연스레 여유 시간도 생겨서 그동안 생...
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      
+    </div>
+    <!-- .card-deck -->
+  </div>
+  <!-- #related-posts -->
+
+
+      
+        
+        <!-- Navigation buttons at the bottom of the post. -->
+
+<div class="post-navigation d-flex justify-content-between">
+  
+    <a
+      href="/posts/first-write/"
+      class="btn btn-outline-primary"
+      prompt="이전 글"
+    >
+      <p>블로그를 시작한 이유</p>
+    </a>
+  
+
+  
+    <div
+      class="btn btn-outline-primary disabled"
+      prompt="다음 글"
+    >
+      <p>-</p>
+    </div>
+  
+</div>
+
+      
+        
+        <!--  The comments switcher -->
+
+
+      
+    </div>
+  </div>
 
 
         <!-- The Search results -->
@@ -943,6 +1238,9 @@ var x =...
   
 
   
+    <!-- image lazy-loading & popup & clipboard -->
+    
+  
 
 
 
@@ -1014,16 +1312,37 @@ var x =...
 
   
 
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
 
 
-  <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.7.0/dist/jquery.min.js,npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js,npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/lazysizes@5.3.2/lazysizes.min.js,npm/dayjs@1.11.7/dayjs.min.js,npm/dayjs@1.11.7/locale/ko.min.js,npm/dayjs@1.11.7/plugin/relativeTime.min.js,npm/dayjs@1.11.7/plugin/localizedFormat.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.7.0/dist/jquery.min.js,npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js,npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/lazysizes@5.3.2/lazysizes.min.js,npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.7/dayjs.min.js,npm/dayjs@1.11.7/locale/ko.min.js,npm/dayjs@1.11.7/plugin/relativeTime.min.js,npm/dayjs@1.11.7/plugin/localizedFormat.min.js,npm/tocbot@4.21.0/dist/tocbot.min.js"></script>
 
 
 
 
 
 
-<script defer src="/assets/js/dist/home.min.js"></script>
+<script defer src="/assets/js/dist/post.min.js"></script>
 
 
 
