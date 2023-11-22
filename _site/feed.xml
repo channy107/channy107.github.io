@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>하찮's 개발자</title>
   <subtitle>임헌찬 블로그</subtitle>
-  <updated>2023-11-22T12:19:47+09:00</updated>
+  <updated>2023-11-22T20:49:31+09:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,57 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>SOLID 원칙</title>
+    <link href="http://localhost:4000/posts/solid/" rel="alternate" type="text/html" title="SOLID 원칙" />
+    <published>2023-11-22T00:00:00+09:00</published>
+  
+    <updated>2023-11-22T00:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/solid/</id>
+    <content src="http://localhost:4000/posts/solid/" />
+    <author>
+      <name>channy</name>
+    </author>
+
+  
+    
+    <category term="개발방법론" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  객체지향 설계에서 사용되는 5가지 원칙인 SOLID 원칙에 대해 정리해본다.
+
+
+SOLID 원칙
+SOLID 는 위키에 따르면 로버트 마틴이 2000년대 초반 명명한 객체 지향 프로그래밍 및 설계의 5가지 기본 원칙을 소개한 것으로 개발자가 시간이 지나도 유지 보수와 확장이 쉬운 시스템을 만들고자 할 때 이 원칙들을 적용할 수 있다고 소개한다.
+
+그럼 바로 SOLID 원칙에 대해 살펴보자.
+
+SRP(단일책임의 원칙: Single Responsibility Principle)
+
+  한 클래스는 하나의 책임만 가져야 한다.
+
+
+로버트 마틴은 책임을 변경하려는 이유로 정의하고 어떤 클래스나 모듈을 변경하려는 단 하나의 이유만을 가져야 한다고 결론을 짓는다.
+
+예시 (feat. chat gpt)
+// Ba...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -235,53 +286,6 @@ var x = 1;
 console.log(x) 가 실행되는 시점은 변수 x가 선언되기 전이기 때문에 참조 에러가 발생할 것으로 보이지만 실제로는 undefined 가 출력된다.
 
 코드를 실행하기 전 선언문을 해당 범위의 맨 위로 이동시키는 과정 이라는 정의를 보았을 때 그 이유는 변수 선언은 코드가 실행되는 시점(런타임)이 아닌 그 이전에 코드의 위로 끌어 올려지기 때문에...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>블로그를 시작한 이유</title>
-    <link href="http://localhost:4000/posts/first-write/" rel="alternate" type="text/html" title="블로그를 시작한 이유" />
-    <published>2023-08-07T00:00:00+09:00</published>
-  
-    <updated>2023-11-02T19:07:38+09:00</updated>
-  
-    <id>http://localhost:4000/posts/first-write/</id>
-    <content src="http://localhost:4000/posts/first-write/" />
-    <author>
-      <name>channy</name>
-    </author>
-
-  
-    
-    <category term="일상" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-  맨날 마음으로만 해야지 해야지 했던 블로그를 드디어 시작하게 되었다. 그래서 첫 글로 내가 왜 블로그를 시작했고, 앞으로 어떤 글을 작성해 나갈지를 간단히 적어보려고 한다.
-
-
-블로그를 시작한 이유
-퇴사 👋
-나는 3년 반 정도 다니고 있던 회사에서 곧 퇴사를 앞두고 있는 상황이다.
-
-퇴사를 앞두고 있다 보니 자연스레 여유 시간도 생겨서 그동안 생각만 하고 못하고 있던 것들을 하나둘씩 해보고 있는데 그중 하나가 바로 블로그 운영해 보는 것이었다.
-
-퇴사 후 이직을 해야 하기 때문에 최근 여러 곳 지원을 해보고 있는데, 서류에서도 많이 떨어지고, 면접을 보면서도 부족했던 부분이 많이 느껴져서 당분간은 그런 부분들에 대해 공부를 하고 블로그에도 정리를 해보려고 한다.
-
-무엇이든 남겨보자 ✍️
-개발 블로...
     </summary>
   
 
