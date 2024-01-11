@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>하찮's 개발자</title>
   <subtitle>임헌찬 블로그</subtitle>
-  <updated>2023-12-14T13:29:36+09:00</updated>
+  <updated>2024-01-11T10:34:42+09:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/</uri>
@@ -13,10 +13,53 @@
   <link rel="alternate" type="text/html" hreflang="ko"
     href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
-  <rights> © 2023 your_full_name </rights>
+  <rights> © 2024 your_full_name </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>임하하 - 홈 화면 구현 리뷰(?) 및 새해 다짐</title>
+    <link href="http://localhost:4000/posts/20240111/" rel="alternate" type="text/html" title="임하하 - 홈 화면 구현 리뷰(?) 및 새해 다짐" />
+    <published>2024-01-11T00:00:00+09:00</published>
+  
+    <updated>2024-01-11T00:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/20240111/</id>
+    <content src="http://localhost:4000/posts/20240111/" />
+    <author>
+      <name>channy</name>
+    </author>
+
+  
+    
+    <category term="Project" />
+    
+    <category term="임하하" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      이번 글은 임하하 페이지의 홈 화면을 완성하기도 했고, 새해가 되었으니 다짐한 것들에 대해 가볍게(?) 적어보겠다!!
+
+구현 화면
+
+
+전에 header만 찔끔있어 휑하게 보이던 페이지가 구현해놓고 나니 이제 나름 실제 페이지랑 거의 비슷해보인다 ㅎㅎ 한 페이지지만 이 페이지를 구성하는데 써보고 싶었던 기술들을 다 맛보기를 해봤다
+
+msw 를 이용해 메뉴, 공지, 게시글 등의 데이터를 모킹하고 react-query를 사용해서 서버 상태에 대한 관리를 하고 페이지네이션이나 검색 기능을 구현하기 위해서 전역 상태 관리 도구로 recoil도 사용했다. recoil은 이번에 처음 사용해보는거 였는데 생각보다 너무 간단하게 상태 공유를 할 수 있어서 좋았다. 전 회사에서는 react-query를 도입하면서 관리해...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -24,7 +67,7 @@
     <link href="http://localhost:4000/posts/lim-haha-header-tab/" rel="alternate" type="text/html" title="임하하 - 폴더 구조 및 path 정리" />
     <published>2023-12-14T00:00:00+09:00</published>
   
-    <updated>2023-12-14T00:00:00+09:00</updated>
+    <updated>2023-12-14T13:33:53+09:00</updated>
   
     <id>http://localhost:4000/posts/lim-haha-header-tab/</id>
     <content src="http://localhost:4000/posts/lim-haha-header-tab/" />
@@ -223,76 +266,6 @@ Header 영역은 최상단에 회원가입과 로그인 중간에 로고 그 아
 
 
 탭의 경우 hover 할 경우 해당 게시판에 포함되어 있는 상세 게시판들이 보인다. 탭을 클릭을 할 경우 해당 게시판의 전체 게시물 목록 페이지로 가고 상세 게시판을 클...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>프로젝트 소개</title>
-    <link href="http://localhost:4000/posts/toy-project/" rel="alternate" type="text/html" title="프로젝트 소개" />
-    <published>2023-11-17T00:00:00+09:00</published>
-  
-    <updated>2023-11-17T00:00:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/toy-project/</id>
-    <content src="http://localhost:4000/posts/toy-project/" />
-    <author>
-      <name>channy</name>
-    </author>
-
-  
-    
-    <category term="Project" />
-    
-    <category term="임하하" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-  그 동안 공부했던 기술들을 바탕으로 침하하 사이트를 클론 코딩하는 프로젝트를 진행하기 위해 관련 내용을 정리한다.
-
-
-사용할 스킬
-Core
-
-  타입스크립트 / React(Next.js)
-
-
-최근 Next.js 14버전이 릴리즈 되어 14버전의 app router 기반으로 프로젝트를 세팅한다.
-상태 관리
-
-  Recoil, React Query(서버 상태)
-
-
-프로젝트의 전역상태는 Recoil, 서버상태는 React Query 를 사용하여 관리한다.
-Mocking
-
-  MSW
-
-
-당장 백엔드 환경이 없으므로 MSW을 사용하여 mocking 환경을 구성한다.
-
-구현 범위
-침하하 사이트 아래와 같은 화면 및 기능을 제공한다.
-
-  홈
-  회원가입
-  로그인
-  게시판
-  게시글
-  글쓰기
-  글수정
-...
     </summary>
   
 
