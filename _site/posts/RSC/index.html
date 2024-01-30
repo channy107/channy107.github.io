@@ -37,27 +37,27 @@
   
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.2" />
-<meta property="og:title" content="프로젝트 소개" />
+<meta property="og:title" content="React Server Component" />
 <meta name="author" content="Lim Hun Chan" />
 <meta property="og:locale" content="ko" />
-<meta name="description" content="그 동안 공부했던 기술들을 바탕으로 침하하 사이트를 클론 코딩하는 프로젝트를 진행하기 위해 관련 내용을 정리한다." />
-<meta property="og:description" content="그 동안 공부했던 기술들을 바탕으로 침하하 사이트를 클론 코딩하는 프로젝트를 진행하기 위해 관련 내용을 정리한다." />
-<link rel="canonical" href="http://localhost:4000/posts/toy-project/" />
-<meta property="og:url" content="http://localhost:4000/posts/toy-project/" />
+<meta name="description" content="이번 글에서는 React 18 버전부터 도입된 개념인 React Server Component 에 대해 정리한다." />
+<meta property="og:description" content="이번 글에서는 React 18 버전부터 도입된 개념인 React Server Component 에 대해 정리한다." />
+<link rel="canonical" href="http://localhost:4000/posts/RSC/" />
+<meta property="og:url" content="http://localhost:4000/posts/RSC/" />
 <meta property="og:site_name" content="하찮’s 개발자" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-11-17T00:00:00+09:00" />
+<meta property="article:published_time" content="2024-01-29T00:00:00+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="프로젝트 소개" />
+<meta property="twitter:title" content="React Server Component" />
 <meta name="twitter:site" content="@twitter_username" />
 <meta name="twitter:creator" content="@Lim Hun Chan" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Lim Hun Chan","url":"https://github.com/channy107"},"dateModified":"2023-11-17T00:00:00+09:00","datePublished":"2023-11-17T00:00:00+09:00","description":"그 동안 공부했던 기술들을 바탕으로 침하하 사이트를 클론 코딩하는 프로젝트를 진행하기 위해 관련 내용을 정리한다.","headline":"프로젝트 소개","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/toy-project/"},"url":"http://localhost:4000/posts/toy-project/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Lim Hun Chan","url":"https://github.com/channy107"},"dateModified":"2024-01-29T00:00:00+09:00","datePublished":"2024-01-29T00:00:00+09:00","description":"이번 글에서는 React 18 버전부터 도입된 개념인 React Server Component 에 대해 정리한다.","headline":"React Server Component","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/RSC/"},"url":"http://localhost:4000/posts/RSC/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
 
-  <title>프로젝트 소개 | 하찮's 개발자
+  <title>React Server Component | 하찮's 개발자
   </title>
 
   <!--
@@ -470,7 +470,7 @@
         
           
             
-              <span>프로젝트 소개</span>
+              <span>React Server Component</span>
             
 
           
@@ -550,6 +550,143 @@
 
 
 
+  
+  
+
+  <!-- CDN URL -->
+  
+
+  <!-- Add image path -->
+  
+
+  
+    
+      
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+
+    
+
+    <!-- lazy-load images <https://github.com/aFarkas/lazysizes#readme> -->
+    
+    
+
+    <!-- add image placeholder -->
+    
+      
+    
+
+    <!-- Bypass the HTML-proofer test -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+      
+    
+
+    <!-- combine -->
+    
+
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+
+    
+
+    <!-- lazy-load images <https://github.com/aFarkas/lazysizes#readme> -->
+    
+    
+
+    <!-- add image placeholder -->
+    
+      
+    
+
+    <!-- Bypass the HTML-proofer test -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+      
+    
+
+    <!-- combine -->
+    
+
+  
+
+  
+
+
 
 <!-- Add header for code snippets -->
 
@@ -596,6 +733,18 @@
       
 
     
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
 
     
 
@@ -612,6 +761,18 @@
       
         
         
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
       
 
       
@@ -671,7 +832,7 @@
 
 
 
-<h1 data-toc-skip>프로젝트 소개</h1>
+<h1 data-toc-skip>React Server Component</h1>
 
 <div class="post-meta text-muted">
     <!-- published date -->
@@ -688,13 +849,13 @@
 
 <em
   class=""
-  data-ts="1700146800"
+  data-ts="1706454000"
   data-df="YYYY/MM/DD"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  2023/11/17
+  2024/01/29
 </em>
 
     </span>
@@ -743,9 +904,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="361 단어"
+  title="2193 단어"
 >
-  <em>2 분</em>읽는 시간</span>
+  <em>12 분</em>읽는 시간</span>
 
     </div>
 
@@ -755,49 +916,154 @@
 
 <div class="post-content">
   <blockquote>
-  <p>그 동안 공부했던 기술들을 바탕으로 <a href="https://chimhaha.net/">침하하</a> 사이트를 클론 코딩하는 프로젝트를 진행하기 위해 관련 내용을 정리한다.</p>
+  <p>이번 글에서는 React 18 버전부터 도입된 개념인 React Server Component 에 대해 정리한다.</p>
 </blockquote>
 
-<h2 id="사용할-스킬"><span class="me-2">사용할 스킬</span><a href="#사용할-스킬" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<h3 id="core"><span class="me-2">Core</span><a href="#core" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>이번에 침하하 clone 과 쇼핑몰 사이트 개발을 하면서 공부 겸 Next 14 를 사용했었다.</p>
+
+<p>회사에서 사용할 때는 Next를 써보지 않않고, 공부할 때는 제일 최신버전인 14 버전으로 공부해서 <code class="language-plaintext highlighter-rouge">page router</code> 가 아닌 <code class="language-plaintext highlighter-rouge">app router</code> 기반으로 Next 개발을 시작했다.</p>
+
+<p>저번주에 면접을 진행하면서 관련 질문을 받은 만큼 이번에는 Next 13 이상 버전의 <code class="language-plaintext highlighter-rouge">app router</code> 의 가장 큰 특징인 React Server Component 를 정리해보려고 한다.</p>
+
+<h1 id="rscreact-server-component">RSC(React Server Component)</h1>
+<p>단순히 이름만 보았을 땐 이름에 <code class="language-plaintext highlighter-rouge">Server</code> 가 들어가기 때문에 SSR(Server Side rendering)에 관련된 컴포넌트인가? 생각할 수 있다. 결론을 바로 얘기하자면 RSC 와 SSR은 <strong>다르다.</strong>
+어떻게 다른지 알아보기 위해 먼저 CSR 과 SSR을 비교하면서 SSR 개념부터 잡아보자.</p>
+<h2 id="csr-vs-ssr"><span class="me-2">CSR vs SSR</span><a href="#csr-vs-ssr" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p><code class="language-plaintext highlighter-rouge">CSR(Client Side Rendering)</code> 과 <code class="language-plaintext highlighter-rouge">SSR(Server Side Rendering)</code> 은 단순하게 보면 이름에서 알 수 있듯이 렌더링하는 방식에 있어서 <code class="language-plaintext highlighter-rouge">client(브라우저)</code> 에서 렌더링을 하는지, <code class="language-plaintext highlighter-rouge">server</code>에서 렌더링을 하는지에 대해 차이가 있다고 볼 수 있다.</p>
+
+<h3 id="csr"><span class="me-2">CSR</span><a href="#csr" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p><a href="/assets/img/serverComponent/csr.png" class="popup img-link "><img data-src="/assets/img/serverComponent/csr.png" class="lazyload" data-proofer-ignore></a></p>
+
+<p>위 사진을 보면 서버에서 응답이 오면 자바스크립트를 로드하고 실행이 완료될 때까지 유저는 화면을 확인할 수 없다.</p>
+
+<p>기본적으로 SPA(Single Page Application) 이기 때문에 <code class="language-plaintext highlighter-rouge">CSR</code> 방식은 하나의 html 껍데기를 받고 로드된 자바스크립트를 실행하면서 화면을 동적으로 그리기 때문에 자바스크립트가 실행되기 전까지 화면을 볼 수 없다.</p>
+
+<p>이는 초기에 자바스크립트를 받기 위한 시간이 필요하기 때문에 초기 로딩 속도가 느린 대신 이후에는 빠른 화면 전환이나 인터렉션이 가능하다는 장점이 있다.</p>
+
+<p>또한, 서버에서는 하나의 정적파일만 제공하면 되므로 부하가 감소하는 장점이 있는 반면, 자바스크립트가 실행되기전까지 html에 내용이 없기 때문에 SEO(검색엔진최적화)가 취약하다는 단점도 있다.</p>
+
+<h3 id="ssr"><span class="me-2">SSR</span><a href="#ssr" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p><a href="/assets/img/serverComponent/ssr.png" class="popup img-link "><img data-src="/assets/img/serverComponent/ssr.png" class="lazyload" data-proofer-ignore></a></p>
+
+<p><code class="language-plaintext highlighter-rouge">SSR</code> 은 위 사진을 보면 서버에서 껍데기 html 이 아닌 렌더링할 준비가 된 즉, 내용이 채워진 상태의 html 을 응답하기 때문에 브라우저는 이를 받으면 일단 html을 화면에 렌더링하고, 자바스크립트를 로드받고 실행하면서 html에 연결하는데 이를 <code class="language-plaintext highlighter-rouge">hydration</code> 이라고 한다.</p>
+
+<p>따라서 <code class="language-plaintext highlighter-rouge">SSR</code> 은 초기 로딩 속도가 빠르며, 완성된 html 이 오기 때문에 SEO에도 <code class="language-plaintext highlighter-rouge">CSR</code> 보다 유리하다. 하지만 요청에 대해 서버에서 새로 렌더링 해야하므로 서버에 부하가 있을 수 있고, 먼저 html을 보여주고 이 후에 hydration 하기 때문에 사용자와의 상호작용하는 데 딜레이가 있게 된다.</p>
+
+<h2 id="그래서-rsc-는"><span class="me-2">그래서 RSC 는..?</span><a href="#그래서-rsc-는" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>이제 SSR에 대해 알아봤으니 먼저 위 <code class="language-plaintext highlighter-rouge">RSC</code> 와 <code class="language-plaintext highlighter-rouge">SSR</code>은 <strong>다르다.</strong> 라는 것에 대해 설명할 수 있을 거 같다.</p>
+
+<p><code class="language-plaintext highlighter-rouge">SSR</code>은 위에서 설명했듯이 서버에서 완성된 html을 응답할 뿐 결국 사용자와 상호 작용할 수 있도록 하는 <code class="language-plaintext highlighter-rouge">hydration</code> 과정이 있기 때문에 자바스크립트를 로드받고 실행해야한다. 하지만 <code class="language-plaintext highlighter-rouge">RSC</code> 는 서버에서 한번 실행되고 렌더링된 내용이 클라이언트로 전송되고 그 상태로 변하지 않는다. 그래서 유저 인터렉션도 할 수 없고 리렌더링도 되지 않는다. 그렇기 때문에 서버 컴포넌트는 번들에 포함되지도 않는다. 따라서 서버 컴포넌트에서 사용되는 라이브러리 역시도 번들에 포함되지 않아 번들 사이즈를 줄일 수 있다.</p>
+
+<p>이렇게 <code class="language-plaintext highlighter-rouge">SSR</code>과 비교하며 <code class="language-plaintext highlighter-rouge">RSC</code> 의 특징이자 장점으로 제로 번들 사이즈가 있다는 것을 알았다. 이번에는 기존 컴포넌트인 <code class="language-plaintext highlighter-rouge">RCC</code> 와 비교하며 <code class="language-plaintext highlighter-rouge">RSC</code> 의 특징들을 좀 더 알아보자.</p>
+
+<p><code class="language-plaintext highlighter-rouge">RSC</code> 는 위에도 언급했듯 서버에서 실행되고, 응답되면 변하지 않기 때문에 <code class="language-plaintext highlighter-rouge">useState</code>, <code class="language-plaintext highlighter-rouge">useEffect</code> 와 같은 state 와 effect 에 관련된 hook을 사용할 수 없다. 같은 이유로, DOM과 같은 브라우저 api 역시 사용할 수 없다.</p>
+
+<p>하지만 서버에서 실행되기 때문에 데이터베이스, 파일시스템과 같은 server 데이터에 직접 접근하고 사용할 수 있다. <a href="https://react.dev/blog/2020/12/21/data-fetching-with-react-server-components">RSC를 소개하는 영상</a>을 보아도 기존 컴포넌트의 api를 fetch 하는 데 생기는 문제점(api over-fetching, waterfall 문제 등등)들을 해결하기 위해 <code class="language-plaintext highlighter-rouge">RSC</code>가 나온 것으로 보인다.</p>
+
+<p>실제 영상에서 예시로 들었던 demo 코드를 보면 아래처럼 리액트에서 직접 db에 접근하는 코드를 확인할 수 있다.</p>
+<div class="language-javascript highlighter-rouge"><div class="code-header">
+        <span data-label-text="JavaScript"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+</pre></td><td class="rouge-code"><pre><span class="k">export</span> <span class="k">default</span> <span class="k">async</span> <span class="kd">function</span> <span class="nf">NoteList</span><span class="p">({</span><span class="nx">searchText</span><span class="p">})</span> <span class="p">{</span>
+  <span class="c1">// const notes = await (await fetch('http://localhost:4000/notes')).json();</span>
+
+  <span class="c1">// WARNING: This is for demo purposes only.</span>
+  <span class="c1">// We don't encourage this in real apps. There are far safer ways to access</span>
+  <span class="c1">// data in a real application!</span>
+  <span class="kd">const</span> <span class="nx">notes</span> <span class="o">=</span> <span class="p">(</span>
+    <span class="k">await</span> <span class="nx">db</span><span class="p">.</span><span class="nf">query</span><span class="p">(</span>
+      <span class="s2">`select * from notes where title ilike $1 order by id desc`</span><span class="p">,</span>
+      <span class="p">[</span><span class="dl">'</span><span class="s1">%</span><span class="dl">'</span> <span class="o">+</span> <span class="nx">searchText</span> <span class="o">+</span> <span class="dl">'</span><span class="s1">%</span><span class="dl">'</span><span class="p">]</span>
+    <span class="p">)</span>
+  <span class="p">).</span><span class="nx">rows</span><span class="p">;</span>
+
+  <span class="c1">// Now let's see how the Suspense boundary above lets us not block on this.</span>
+  <span class="c1">// await fetch('http://localhost:4000/sleep/3000');</span>
+
+  <span class="k">return</span> <span class="nx">notes</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="p">?</span> <span class="p">(</span>
+    <span class="o">&lt;</span><span class="nx">ul</span> <span class="nx">className</span><span class="o">=</span><span class="dl">"</span><span class="s2">notes-list</span><span class="dl">"</span><span class="o">&gt;</span>
+      <span class="p">{</span><span class="nx">notes</span><span class="p">.</span><span class="nf">map</span><span class="p">((</span><span class="nx">note</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">(</span>
+        <span class="o">&lt;</span><span class="nx">li</span> <span class="nx">key</span><span class="o">=</span><span class="p">{</span><span class="nx">note</span><span class="p">.</span><span class="nx">id</span><span class="p">}</span><span class="o">&gt;</span>
+          <span class="o">&lt;</span><span class="nx">SidebarNote</span> <span class="nx">note</span><span class="o">=</span><span class="p">{</span><span class="nx">note</span><span class="p">}</span> <span class="sr">/</span><span class="err">&gt;
+</span>        <span class="o">&lt;</span><span class="sr">/li</span><span class="err">&gt;
+</span>      <span class="p">))}</span>
+    <span class="o">&lt;</span><span class="sr">/ul</span><span class="err">&gt;
+</span>  <span class="p">)</span> <span class="p">:</span> <span class="p">(</span>
+    <span class="o">&lt;</span><span class="nx">div</span> <span class="nx">className</span><span class="o">=</span><span class="dl">"</span><span class="s2">notes-empty</span><span class="dl">"</span><span class="o">&gt;</span>
+      <span class="p">{</span><span class="nx">searchText</span>
+        <span class="p">?</span> <span class="s2">`Couldn't find any notes titled "</span><span class="p">${</span><span class="nx">searchText</span><span class="p">}</span><span class="s2">".`</span>
+        <span class="p">:</span> <span class="dl">'</span><span class="s1">No notes created yet!</span><span class="dl">'</span><span class="p">}{</span><span class="dl">'</span><span class="s1"> </span><span class="dl">'</span><span class="p">}</span>
+    <span class="o">&lt;</span><span class="sr">/div</span><span class="err">&gt;
+</span>  <span class="p">);</span>
+<span class="p">}</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<h2 id="정리"><span class="me-2">정리</span><a href="#정리" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p><code class="language-plaintext highlighter-rouge">RSC</code>는 말 그대로 서버에서 실행되는 컴포넌트를 의미하고, 그로인해 아래와 같은 특징과 장점이 있다고 정리할 수 있을 거 같다.</p>
+<h3 id="특징"><span class="me-2">특징</span><a href="#특징" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <ul>
-  <li>타입스크립트 / React(Next.js)</li>
+  <li>서버에서 실행</li>
+  <li>유저 인터렉션 불가능</li>
+  <li>useState, useEffect 등 hook 사용 불가</li>
+  <li>브라우저 API 사용 불가</li>
+  <li>데이터베이스 접근, 파일시스템과 같은 server 기능 사용 가능
+    <h3 id="장점"><span class="me-2">장점</span><a href="#장점" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+  </li>
+  <li>서버 리소스에 자유로운 접근</li>
+  <li>제로 번들 사이즈 컴포넌트</li>
+  <li>자동 코드 분할
+    <ul>
+      <li>서버 컴포넌트에서 import 되는 모든 클라이언트 컴포넌트를 code splitting 포인트로 간주해 React.lay 로 명시하지 않아도 됨.</li>
+    </ul>
+  </li>
 </ul>
 
-<p>최근 <a href="https://nextjs.org/blog/next-14">Next.js 14버전</a>이 릴리즈 되어 14버전의 app router 기반으로 프로젝트를 세팅한다.</p>
-<h3 id="상태-관리"><span class="me-2">상태 관리</span><a href="#상태-관리" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<h1 id="마치며">마치며..</h1>
+<p>최근 Nextjs 14 으로 개발을 하고 저번주 면접을 보면서 관련 질문도 받아서 서버 컴포넌트에 관해 정리를 해보았다. <code class="language-plaintext highlighter-rouge">app router</code>가 서버 컴포넌트를 기반으로 구현된 거 라는 것만 대충 알고 있었는데, 이번 기회에 알아보니 꽤 도움이 됐던 거 같다. 처음에 리액트 공식문서에 있는 영상을 보았을 땐, 영어로 되어 있어 막막했는데 다른 분들이 한글로 정리를 잘 해주신 것들을 많이 참고해서 조금은 이해가 되었던 거 같다.</p>
+
+<p>서버 컴포넌트가 나오면서 앞으로는 컴포넌트를 분리할 때 해당 컴포넌트가 서버 컴포넌트가 적합한 지 클라이언트 컴포넌트가 적합한 지 고민을 열심히 해야할 거 같고 그러한 고민들을 통해 좀 더 명확한 기준을 가지고 컴포넌트의 역할을 나눌 수 있을 거 같다는 생각이 들었다. 그리고 영상에도 나왔지만 서버 컴포넌트는 기본적으로 api fetching을 위해 나온 거 같은데, 그렇다면 기존에 사용하던 react-query 같은 api fetching 라이브러리들은 어떻게 활용될지 아니면 서버 컴포넌트의 server action 에 대체가 될 지 이런것들도 궁금해졌다. 나는 침하하 clone을 하면서 별 생각 없이 react-query를 썼던 거 같은데, 이 후 개발을 할 때에는 server action도 한번 사용해보고 싶다.</p>
+
+<p>끝으로.. 저번주는 면접을 핑계(?)로 개발도 많이 못했으니 이제 내일부터 다시 열심히 해보려고 한다!!! <strong>화이팅</strong> ✋</p>
+
+<h1 id="참고-링크">참고 링크</h1>
 <ul>
-  <li>Recoil, React Query(서버 상태)</li>
+  <li>https://react.dev/blog/2020/12/21/data-fetching-with-react-server-components</li>
+  <li>https://tech.kakaopay.com/post/react-server-components/</li>
+  <li>https://velog.io/@2ast/React-%EC%84%9C%EB%B2%84-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8React-Server-Component%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EC%B0%B0</li>
+  <li>https://velog.io/@9rganizedchaos/React-Server-Components%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%B4%EB%B3%B4%EC%9E%90</li>
+  <li>https://velog.io/@cheal3/%EC%84%9C%EB%B2%84%EC%82%AC%EC%9D%B4%EB%93%9C-%EB%A0%8C%EB%8D%94%EB%A7%81-SSR-%EA%B3%BC-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%82%AC%EC%9D%B4%EB%93%9C-%EB%A0%8C%EB%8D%94%EB%A7%81-CSR-%EC%97%90-%EB%8C%80%ED%95%B4</li>
 </ul>
-
-<p>프로젝트의 전역상태는 Recoil, 서버상태는 React Query 를 사용하여 관리한다.</p>
-<h3 id="mocking"><span class="me-2">Mocking</span><a href="#mocking" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<ul>
-  <li>MSW</li>
-</ul>
-
-<p>당장 백엔드 환경이 없으므로 MSW을 사용하여 mocking 환경을 구성한다.</p>
-
-<h2 id="구현-범위"><span class="me-2">구현 범위</span><a href="#구현-범위" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p>침하하 사이트 아래와 같은 화면 및 기능을 제공한다.</p>
-<ul>
-  <li>홈</li>
-  <li>회원가입</li>
-  <li>로그인</li>
-  <li>게시판</li>
-  <li>게시글</li>
-  <li>글쓰기</li>
-  <li>글수정</li>
-  <li>마이페이지</li>
-  <li>알림</li>
-  <li>신고 건의</li>
-</ul>
-
-<p>이번 토이 프로젝트에서는 공부했던 기술들을 바탕으로 먼저 간단한 CRUD 기능에 해당되는  <code class="language-plaintext highlighter-rouge">홈</code>, <code class="language-plaintext highlighter-rouge">게시판</code>, <code class="language-plaintext highlighter-rouge">게시글</code>, <code class="language-plaintext highlighter-rouge">글쓰기</code>, <code class="language-plaintext highlighter-rouge">글수정</code>, <code class="language-plaintext highlighter-rouge">글삭제</code> 화면 및 기능을 우선 진행한다.</p>
-
-<p>위 화면 및 기능을 우선 구현 후 <code class="language-plaintext highlighter-rouge">회원 가입</code>과 <code class="language-plaintext highlighter-rouge">로그인</code> 기능을 구현한다.</p>
-
-<p><code class="language-plaintext highlighter-rouge">알림</code>, <code class="language-plaintext highlighter-rouge">마이 페이지</code>, <code class="language-plaintext highlighter-rouge">신고 건의</code> 화면은 화면만 다를뿐 CRUD 기능에 벗어나지 않아 따로 진행하진 않는다.</p>
 
 </div>
 
@@ -808,8 +1074,8 @@
   <div class="post-meta mb-3">
     <i class="far fa-folder-open fa-fw me-1"></i>
     
-      <a href='/categories/project/'>Project</a>,
-      <a href='/categories/%EC%9E%84%ED%95%98%ED%95%98/'>임하하</a>
+      <a href='/categories/frontend/'>Frontend</a>,
+      <a href='/categories/react/'>React</a>
   </div>
   
 
@@ -975,79 +1241,79 @@
   
 
   
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
   
 
   
@@ -1104,7 +1370,7 @@
         
         
         <div class="col">
-          <a href="/posts/lim-haha-home/" class="card post-preview h-100">
+          <a href="/posts/first-write/" class="card post-preview h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -1117,14 +1383,14 @@
 
 <em
   class="small"
-  data-ts="1700578800"
+  data-ts="1691334000"
   data-df="YYYY/MM/DD"
   
 >
-  2023/11/22
+  2023/08/07
 </em>
 
-              <h4 class="pt-0 my-2" data-toc-skip>임하하 - Home(기존페이지 분석)</h4>
+              <h4 class="pt-0 my-2" data-toc-skip>블로그를 시작한 이유</h4>
               <div class="text-muted small">
                 <p>
                   
@@ -1134,16 +1400,14 @@
 
 
                   
-  임하하 Home 화면 작업 전 실제 침하하 Home 화면의 요소들을 정리해본다.
+  맨날 마음으로만 해야지 해야지 했던 블로그를 드디어 시작하게 되었다. 그래서 첫 글로 내가 왜 블로그를 시작했고, 앞으로 어떤 글을 작성해 나갈지를 간단히 적어보려고 한다.
 
 
-침하하 Home 전체 화면
-아래 사진은 침하하 Home 화면이다. 화면이 상/하로 길어 크게 회원가입/로그인 부터 광고영역까지 상단 부분, 아래 게시글 목록 하단 부분으로 정리해본다.
+블로그를 시작한 이유
+퇴사 👋
+나는 3년 반 정도 다니고 있던 회사에서 곧 퇴사를 앞두고 있는 상황이다.
 
-
-
-상단부분
-침하하 Home 상단부분에서는 크게 Header 영역, short...
+퇴사를 앞두고 있다 보니 자연스레 여유 시간도 생겨서 그동안 생...
                 </p>
               </div>
             </div>
@@ -1153,7 +1417,7 @@
         
         
         <div class="col">
-          <a href="/posts/lim-haha-header-tab/" class="card post-preview h-100">
+          <a href="/posts/hoisting/" class="card post-preview h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -1166,14 +1430,14 @@
 
 <em
   class="small"
-  data-ts="1702479600"
+  data-ts="1698850800"
   data-df="YYYY/MM/DD"
   
 >
-  2023/12/14
+  2023/11/02
 </em>
 
-              <h4 class="pt-0 my-2" data-toc-skip>임하하 - 폴더 구조 및 path 정리</h4>
+              <h4 class="pt-0 my-2" data-toc-skip>호이스팅</h4>
               <div class="text-muted small">
                 <p>
                   
@@ -1183,18 +1447,19 @@
 
 
                   
-  임하하 프로젝트의 폴더 구조 및 path 정리를 정리한다.
+  자바스크립트 호이스팅에 대해 정리한다.
 
 
-구현 화면
-아직은 볼품 없지만 나름 비슷해져가고 있다 ㅎㅎ
+호이스팅은 무엇인가?
+
+  MDN 문서에 따르면, 호이스팅은 인터프리터가 코드를 실행하기 전에 함수, 변수, 클래스 또는 임포트(import)의 선언문을 해당 범위의 맨 위로 이동시키는 과정을 말한다.
 
 
+아래 코드를 예시로 보면
+console.log(x); // undefined
 
-
-폴더 구조 및 path 정리
-app 하위 폴더 구조
-next app router 에서는 파일 시스템 기반으로 라우팅을 구현하기 때문에 app 하위의 디렉토리가 곧 라우팅 될 페이지라고 볼 수 있다. 또한 [디렉토리 이름...
+var x = 1;
+...
                 </p>
               </div>
             </div>
@@ -1204,7 +1469,7 @@ next app router 에서는 파일 시스템 기반으로 라우팅을 구현하�
         
         
         <div class="col">
-          <a href="/posts/20240111/" class="card post-preview h-100">
+          <a href="/posts/execution-context/" class="card post-preview h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -1217,14 +1482,14 @@ next app router 에서는 파일 시스템 기반으로 라우팅을 구현하�
 
 <em
   class="small"
-  data-ts="1704898800"
+  data-ts="1699282800"
   data-df="YYYY/MM/DD"
   
 >
-  2024/01/11
+  2023/11/07
 </em>
 
-              <h4 class="pt-0 my-2" data-toc-skip>임하하 - 홈 화면 구현 리뷰(?) 및 새해 다짐</h4>
+              <h4 class="pt-0 my-2" data-toc-skip>실행 컨텍스트</h4>
               <div class="text-muted small">
                 <p>
                   
@@ -1233,14 +1498,16 @@ next app router 에서는 파일 시스템 기반으로 라우팅을 구현하�
 
 
 
-                  이번 글은 임하하 페이지의 홈 화면을 완성하기도 했고, 새해가 되었으니 다짐한 것들에 대해 가볍게(?) 적어보겠다!!
+                  
+  자바스크립트 실행 컨텍스트에 대해 정리한다.
 
-구현 화면
 
+실행 컨텍스트
 
-전에 header만 찔끔있어 휑하게 보이던 페이지가 구현해놓고 나니 이제 나름 실제 페이지랑 거의 비슷해보인다 ㅎㅎ 한 페이지지만 이 페이지를 구성하는데 써보고 싶었던 기술들을 다 맛보기를 해봤다
+소스코드의 평가와 실행
+실행 컨텍스트를 알아보기에 앞서 모든 소스코드는 실행에 앞서 평가하는 과정을 거치면서 실행을 하기 위한 준비를 한다.
 
-msw 를 이용해 메...
+소스코드 평가 과정에서는 실행 컨텍스트를 생성하고 변수, 함수 등의 선언부부터 먼저 실행하여 변수나 함수 식별자를 키로 실행 컨텍스트가 관리...
                 </p>
               </div>
             </div>
@@ -1260,22 +1527,21 @@ msw 를 이용해 메...
 <div class="post-navigation d-flex justify-content-between">
   
     <a
-      href="/posts/execution-context/"
+      href="/posts/20240111/"
       class="btn btn-outline-primary"
       prompt="이전 글"
     >
-      <p>실행 컨텍스트</p>
+      <p>임하하 - 홈 화면 구현 리뷰(?) 및 새해 다짐</p>
     </a>
   
 
   
-    <a
-      href="/posts/lim-haha-home/"
-      class="btn btn-outline-primary"
+    <div
+      class="btn btn-outline-primary disabled"
       prompt="다음 글"
     >
-      <p>임하하 - Home(기존페이지 분석)</p>
-    </a>
+      <p>-</p>
+    </div>
   
 </div>
 
