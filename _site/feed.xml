@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>하찮's 개발자</title>
   <subtitle>임헌찬 블로그</subtitle>
-  <updated>2024-01-11T10:34:42+09:00</updated>
+  <updated>2024-01-30T16:59:40+09:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,53 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>React Server Component</title>
+    <link href="http://localhost:4000/posts/RSC/" rel="alternate" type="text/html" title="React Server Component" />
+    <published>2024-01-29T00:00:00+09:00</published>
+  
+    <updated>2024-01-29T00:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/RSC/</id>
+    <content src="http://localhost:4000/posts/RSC/" />
+    <author>
+      <name>channy</name>
+    </author>
+
+  
+    
+    <category term="Frontend" />
+    
+    <category term="React" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  이번 글에서는 React 18 버전부터 도입된 개념인 React Server Component 에 대해 정리한다.
+
+
+이번에 침하하 clone 과 쇼핑몰 사이트 개발을 하면서 공부 겸 Next 14 를 사용했었다.
+
+회사에서 사용할 때는 Next를 써보지 않않고, 공부할 때는 제일 최신버전인 14 버전으로 공부해서 page router 가 아닌 app router 기반으로 Next 개발을 시작했다.
+
+저번주에 면접을 진행하면서 관련 질문을 받은 만큼 이번에는 Next 13 이상 버전의 app router 의 가장 큰 특징인 React Server Component 를 정리해보려고 한다.
+
+RSC(React Server Component)
+단순히 이름만 보았을 땐 이름에 Server 가 들어가기 때...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -212,60 +259,6 @@ SRP(단일책임의 원칙: Single Responsibility Principle)
 
 예시 (feat. chat gpt)
 // Ba...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>임하하 - Home(기존페이지 분석)</title>
-    <link href="http://localhost:4000/posts/lim-haha-home/" rel="alternate" type="text/html" title="임하하 - Home(기존페이지 분석)" />
-    <published>2023-11-22T00:00:00+09:00</published>
-  
-    <updated>2023-11-22T00:00:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/lim-haha-home/</id>
-    <content src="http://localhost:4000/posts/lim-haha-home/" />
-    <author>
-      <name>channy</name>
-    </author>
-
-  
-    
-    <category term="Project" />
-    
-    <category term="임하하" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-  임하하 Home 화면 작업 전 실제 침하하 Home 화면의 요소들을 정리해본다.
-
-
-침하하 Home 전체 화면
-아래 사진은 침하하 Home 화면이다. 화면이 상/하로 길어 크게 회원가입/로그인 부터 광고영역까지 상단 부분, 아래 게시글 목록 하단 부분으로 정리해본다.
-
-
-
-상단부분
-침하하 Home 상단부분에서는 크게 Header 영역, shortcuts 영역, 최신 업로드 영역으로 나누고 있다
-
-
-Header 영역
-Header 영역은 최상단에 회원가입과 로그인 중간에 로고 그 아래에는 게시판으로 이동할 수 있는 탭들이 있다.
-
-
-
-탭의 경우 hover 할 경우 해당 게시판에 포함되어 있는 상세 게시판들이 보인다. 탭을 클릭을 할 경우 해당 게시판의 전체 게시물 목록 페이지로 가고 상세 게시판을 클...
     </summary>
   
 
