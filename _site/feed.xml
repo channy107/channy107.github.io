@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>하찮's 개발자</title>
   <subtitle>임헌찬 블로그</subtitle>
-  <updated>2024-03-12T15:43:03+09:00</updated>
+  <updated>2024-03-14T17:54:42+09:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,62 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>하찮은 코딩 관리자 페이지</title>
+    <link href="http://localhost:4000/posts/trivialcoding-admin/" rel="alternate" type="text/html" title="하찮은 코딩 관리자 페이지" />
+    <published>2024-03-14T00:00:00+09:00</published>
+  
+    <updated>2024-03-14T00:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/trivialcoding-admin/</id>
+    <content src="http://localhost:4000/posts/trivialcoding-admin/" />
+    <author>
+      <name>channy</name>
+    </author>
+
+  
+    
+    <category term="Project" />
+    
+    <category term="trivialcoding" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  이번 글은 하찮은 코딩 관리자 페이지에 대해 소개한다.
+
+
+하찮은코딩 회원가입/로그인 페이지 글에 이어 오늘은 본격적으로 쇼핑몰 페이지를 만들기 전에 필요한 관리자 페이지 개발를 소개하고 진행상황을 정리한다.
+
+관리자 페이지
+
+요구사항
+
+
+  관리자 페이지는 관리자 역할을 가진 사용자만 접근 가능 하다.
+  관리자 페이지는 크게 공통 그리고 서비스 별로 관리자 페이지가 존재한다
+    
+      공통에선 유저 관리와 같이 하찮은 코딩의 전체적인 설정을 위한 페이지
+      서비스 별로는 쇼핑몰로 예를 들면 쇼핑몰의 상품, 카테고리, 색상 등 실제 쇼핑몰 페이지에서 노출 시킬 것들을 제어할 수 있는 페이지다.
+    
+  
+
+
+관리자 페이지는 그때그때 서비스를 만들면서 필요에 의해 기능을 추가할...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -208,56 +264,6 @@ next app router 에서는 파일 시스템 기반으로 라우팅을 구현하�
 │   ├── getBoardMenus.ts
 │   └── types.ts
 ├── _compon...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>this</title>
-    <link href="http://localhost:4000/posts/this/" rel="alternate" type="text/html" title="this" />
-    <published>2023-12-11T00:00:00+09:00</published>
-  
-    <updated>2023-12-11T00:00:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/this/</id>
-    <content src="http://localhost:4000/posts/this/" />
-    <author>
-      <name>channy</name>
-    </author>
-
-  
-    
-    <category term="Javascript" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-  이 전 실행 컨텍스트 포스팅에서도  언급했던 개념인 자바스크립트 this에 관해 정리해본다.
-
-
-this
-this 키워드를 알아보기 전 객체에 대해 알고 넘어가자.
-
-객체는 상태를 나타내는 프로퍼티와 동작을 나타내는 메서드를 하나의 논리적인 단위로 묶은 자료구조이다. 이때 동작을 나타내는 메서드는 자신이 속한 객체의 프로퍼티를 참조하고 변경할 수 있어야 한다. 따라서 메서드가 자신이 속한 객체의 프로퍼티를 참조하려면 먼저 자신이 속한 객체를 가리키는 식별자를 참조할 수 있어야 한다.
-
-const circle = {
-    radius: 5
-    getDiameter() {
-        return 2 * circle.radius;
-    }
-};
-
-console.log(circle.getDia...
     </summary>
   
 
